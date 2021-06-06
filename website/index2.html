@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../Scripts/ajaxCalls.js"></script>
+</head>
+<body dir="rtl">
+    <div class="form-style-3">
+        <form id="userForm">
+            <fieldset>
+                <legend>מידע אישי</legend>
+                <legend>שם*</legend>
+                <label for="field1"><input type="text" class="input-field" name="name" value="" /></label>
+                <legend>דואר אלקטרוני*</legend>
+                <label for="field2"><input type="text" class="input-field" name="mail" value="" /></label>
+                <legend>טלפון נייד*</legend>
+                <label for="field3"> <input type="text" class="input-field" name="phonenumber" value=""/></label>
+            </fieldset>
+            <fieldset>
+                <legend>פרטי מגורים</legend>
+                <legend>עיר*</legend>
+                <label for="field4"><input type="text" class="input-field" name="city" value="" /></label>
+                <legend>רחוב*</legend>
+                <label for="field5"><input type="text" class="input-field" name="street" value="" /></label>
+                <legend>גודל הבית במטר מרובע*</legend>
+                <label for="field6"><input type="text" class="input-field" name="homesize" value="" /></label>
+                <legend>מספר נפשות בבית*</legend>
+
+                <label for="members">
+                    <select name="members" class="select-field">
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </label>
+                <legend>סוג דירה*</legend>
+                <label for="deptype">
+                    <select name="deptype" class="select-field">
+                        <option value="דירה">דירה</option>
+                        <option value="פנטהאוז">פנטהאוז</option>
+                        <option value="דופלקס">דופלקס</option>
+                        <option value="דירת גן">דירת גן</option>
+                        <option value="בית פרטי">בית פרטי</option>
+                        <option value="אחוזה">אחוזה</option>
+                    </select>
+                </label>
+                <legend>מספר חדרים*</legend>
+                <label for="roomsnum">
+                    <select name="roomsnum" class="select-field">
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </label>
+                <legend>האם הבית מאובטח ? בית מאובטח(סורגים,מצלמות,שומר)*</legend>
+                <label for="security">
+                    <input type="radio" class="input-field" id="male" name="gender" value="male">
+                    <label for="כן">כן</label>
+                    <br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="לא">לא</label>
+                    <br>
+                </label>
+                <label><input type="submit" value="שלח" /></label>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
