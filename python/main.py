@@ -156,7 +156,7 @@ def get_subdirs(d):
 def main() -> None:
     """Run the bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater("1898298002:AAFvXKdOHSpJsSnFA60iy9h4u5GAQOVdSyY")
+    updater = Updater("TOKEN")
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
