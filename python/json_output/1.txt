@@ -1,0 +1,1 @@
+{"Name": "TV", "Img": "runs\detect\exp8\crops\oven\video.jpg"}
